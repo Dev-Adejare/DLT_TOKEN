@@ -42,9 +42,8 @@ contract ClaimFaucet is DltToken{
             hasClaimedBefore[msg.sender] = true;
             mint(CLAIMABLE_AMOUNT, msg.sender);
 
-            User memory currentUser;
-            currentUser.lastClaimTime = block.timestamp;
-            currentUser.totalClaimed = CLAIMABLE_AMOUNT;
+            
+            
 
             users[msg.sender] = currentUser;
 

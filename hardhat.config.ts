@@ -2,6 +2,8 @@ import { HardhatUserConfig, vars } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 
 
+// 0x6dec36D0Cf428fE7f8452aDC3b72Bd1E0FfFf033
+
 const ALCHEMY_API_KEY = vars.get("ALCHEMY_API_KEY");
 const BASE_SCAN_API_KEY = vars.get("BASE_SCAN_API_KEY");
 
