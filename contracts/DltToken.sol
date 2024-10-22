@@ -1,9 +1,12 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.27;
+pragma solidity ^0.8.27;
 
 contract DltToken {
   
-   
+    string tokenName;
+    string tokenSymbol;
+    uint256 totalSupply;
+    address owner;
 
     mapping(address => uint256) balances;
 
