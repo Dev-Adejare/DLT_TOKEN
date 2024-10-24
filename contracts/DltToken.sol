@@ -22,7 +22,9 @@ contract DltToken {
 
     // event for logging
     event Transfer(
-       
+        address indexed sender,
+        address indexed reciever,
+        uint256 amount
     );
 
     event Approval(
