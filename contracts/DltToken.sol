@@ -28,7 +28,9 @@ contract DltToken {
     );
 
     event Approval(
-        
+        address indexed owner,
+        address indexed spender,
+        uint256 amount
     );
 
     function getTokenName() external view returns (string memory) {
