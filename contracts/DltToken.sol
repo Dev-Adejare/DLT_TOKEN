@@ -33,13 +33,7 @@ contract DltToken {
         uint256 amount
     );
 
-    function getTokenName() external view returns (string memory) {
-        return tokenName;
-    }
-
-    function getSymbol() external view returns (string memory) {
-        return tokenSymbol;
-    }
+   
 
     function calculateFivePercent(uint256 _amount)
         internal
