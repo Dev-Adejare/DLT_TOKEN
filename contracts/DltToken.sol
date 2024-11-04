@@ -49,13 +49,7 @@ contract DltToken {
         fivePercentage = (_amount * 5) / 100;
     }
 
-    function getTotalSupply() external view returns (uint256) {
-        return totalSupply;
-    }
-
-    function decimal() external pure returns (uint8) {
-        return 18;
-    }
+   
 
     //balance check
     function balanceOf(address _address) external view returns (uint256) {
